@@ -13,8 +13,23 @@ public class Main {
 
     
   
-    System.out.println("losowa liczba " + (randomNumbers.nextInt(100)) );
-    System.out.println("losowa liczba " + (randomNumbers.nextInt(6)) );
+    
+
+    int number1 = randomNumbers.nextInt(100);
+    int number2 = randomNumbers.nextInt(100);
+    int suma=number1+number2;
+    int sumakwa1=number1*number1;
+    int sumakwa2=number2*number2;
+    int sumakwadrat=sumakwa1+sumakwa2;
+      
+    
+    System.out.println("liczba 1"+ number1);
+    System.out.println("liczba 2"+ number2);
+    System.out.println("suma kwadratów "+sumakwadrat);
+ 
+    System.out.println("suma " + suma);
+
+    
  
 
    
