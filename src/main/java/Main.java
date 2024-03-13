@@ -13,8 +13,8 @@ public class Main {
 
     
   
-    System.out.println("losowa liczba " + (randomNumbers.nextInt(100)+1) );
-    System.out.println("losowa liczba " + (randomNumbers.nextInt(6)+1) );
+    System.out.println("losowa liczba " + (randomNumbers.nextInt(100)) );
+    System.out.println("losowa liczba " + (randomNumbers.nextInt(6)) );
  
 
    
